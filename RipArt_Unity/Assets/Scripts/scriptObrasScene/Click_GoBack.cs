@@ -9,7 +9,12 @@ public class Click_GoBack : MonoBehaviour
   void Start() {}  
   
   // Update is called once per frame    
-  void Update() {  
+  void Update() {
+    if (Input.GetMouseButtonDown(0)) {
+        //gameOverPanel.SetActive(true);
+            SceneManager.LoadScene("Test_Map");
+    } 
+    /* 
     if (Input.GetMouseButtonDown(0)) {  
       Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);  
       RaycastHit hit;  
@@ -20,7 +25,7 @@ public class Click_GoBack : MonoBehaviour
           SceneManager.LoadScene("Test_Map");  
         }  
       }  
-    }
+    }*/
     /*
     if (Input.GetMouseButtonDown(0)) {
             RaycastHit hit;

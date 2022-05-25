@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ClickObra1 : MonoBehaviour
 {
+  /*
   static ClickObra1 instance;
 
     void Awake() {
@@ -16,7 +17,7 @@ public class ClickObra1 : MonoBehaviour
             DontDestroyOnLoad(gameObject);
         }
     }
-  
+  */
   // Update is called once per frame    
   void Update() {  
     if (Input.GetMouseButtonDown(0)) {  
@@ -24,7 +25,7 @@ public class ClickObra1 : MonoBehaviour
       RaycastHit hit;  
       if (Physics.Raycast(ray, out hit)) {  
         //Select stage    
-        if (hit.transform.name == "SphereGo") {  //SphereGo - MonaLisaGoBack 
+        if (hit.transform.name == "workChoice") {  //SphereGo - MonaLisaGoBack 
           SceneManager.LoadScene("Obra1_Scene"); //FrontObra
         }  
       }  

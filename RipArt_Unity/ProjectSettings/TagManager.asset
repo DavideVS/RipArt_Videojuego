@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemigo
+  - Original
   layers:
   - Default
   - TransparentFX

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TimerGameOver : MonoBehaviour
 {
@@ -30,7 +31,8 @@ public class TimerGameOver : MonoBehaviour
             //timerUI.text = "GameOver!";
             //Debug.Log("GameOver!");
             Time.timeScale = 0;
-            gameOverPanel.SetActive(true); 
+            gameOverPanel.SetActive(true);
+            //SceneManager.LoadScene("Test_Map"); 
         }
     }
 /*

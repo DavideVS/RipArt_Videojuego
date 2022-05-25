@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/scenes/Test_Map.unity
     guid: 7b533dfe561bc47c8975c955fe4ef3d3
   - enabled: 1
+    path: Assets/scenes/GameOverScene.unity
+    guid: 2df923b153fd649d18034f41d77a529c
+  - enabled: 1
     path: Assets/scenes/Obra1_Scene.unity
     guid: dba8f2f8a3ce54912b2108b60fea0c62
+  - enabled: 1
+    path: Assets/scenes/WinScene.unity
+    guid: 52966c5c3031043ada6fffd2653abeb8
   m_configObjects: {}

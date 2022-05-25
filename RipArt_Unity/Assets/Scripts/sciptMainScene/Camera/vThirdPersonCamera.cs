@@ -1,5 +1,6 @@
 ﻿using Invector;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class vThirdPersonCamera : MonoBehaviour
 {
@@ -89,6 +90,7 @@ public class vThirdPersonCamera : MonoBehaviour
         if (target == null || targetLookAt == null) return;
 
         CameraMovement();
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     /// <summary>
