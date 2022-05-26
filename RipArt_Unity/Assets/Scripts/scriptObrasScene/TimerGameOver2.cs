@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class TimerGameOver2 : MonoBehaviour
 {
-    int countDownStartValue = 15;
+    int countDownStartValue = 30;
     public Text timerUI;
 
     //public static bool gameOver;
@@ -23,7 +23,7 @@ public class TimerGameOver2 : MonoBehaviour
     void countDownTimer () {
         if (countDownStartValue >= 0) {
             TimeSpan spanTime = TimeSpan.FromSeconds(countDownStartValue);
-            timerUI.text = "Timer : " + spanTime.Minutes + " : " + spanTime.Seconds;
+            timerUI.text = "" + spanTime.Minutes + " : " + spanTime.Seconds;
             //Debug.Log("Timer : " + countDownStartValue);
             countDownStartValue--;
             Invoke("countDownTimer", 1.0f);

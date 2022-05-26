@@ -18,6 +18,33 @@ EditorBuildSettings:
     path: Assets/scenes/Obra1_Scene.unity
     guid: dba8f2f8a3ce54912b2108b60fea0c62
   - enabled: 1
+    path: Assets/scenes/Obra2_Scene.unity
+    guid: 06e81aaecc795438fa94003d13da4439
+  - enabled: 1
+    path: Assets/scenes/Obra3_Scene.unity
+    guid: 28fad81a09111437c95297ae4b62ca1a
+  - enabled: 1
+    path: Assets/scenes/Obra4_Scene.unity
+    guid: 45edca86b9df34537b7bf9b1b83177b2
+  - enabled: 1
+    path: Assets/scenes/Obra5_Scene.unity
+    guid: f56f45700ee0046fa9b50226acfbcc76
+  - enabled: 1
+    path: Assets/scenes/Obra6_Scene.unity
+    guid: 5eea9cae9b63b4665866331d5a153a33
+  - enabled: 1
+    path: Assets/scenes/Obra7_Scene.unity
+    guid: 8f00dcec9f4a640acbb3ddca7626f5d3
+  - enabled: 1
+    path: Assets/scenes/Obra8_Scene.unity
+    guid: 2865cfafaab414b7abe48e9237c749dc
+  - enabled: 1
+    path: Assets/scenes/Obra9_Scene.unity
+    guid: c86cb41f63faa4494b41e1d9082aa4d6
+  - enabled: 1
+    path: Assets/scenes/Obra10_Scene.unity
+    guid: b89a47cabd6634108ba5a553e97691de
+  - enabled: 1
     path: Assets/scenes/WinScene.unity
     guid: 52966c5c3031043ada6fffd2653abeb8
   m_configObjects: {}
