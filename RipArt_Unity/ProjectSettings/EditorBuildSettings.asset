@@ -9,6 +9,24 @@ EditorBuildSettings:
     path: Assets/scenes/Menu_inicial.unity
     guid: a178ae3654f3142ffa7332609656f377
   - enabled: 1
+    path: Assets/scenes/Sipnosis.unity
+    guid: 317135c862c3a497e8017077b8d2bfb0
+  - enabled: 1
+    path: Assets/scenes/Tutorial.unity
+    guid: f1714b3a32884405289ffdeb746ffa67
+  - enabled: 1
+    path: Assets/scenes/Tutorial1.unity
+    guid: 582fdca4136c24fecbdd76c6fde2a167
+  - enabled: 1
+    path: Assets/scenes/Tutorial2.unity
+    guid: 30003179a0bf94ef6a2c54bb5378a8bf
+  - enabled: 1
+    path: Assets/scenes/Tutorial3.unity
+    guid: 43233faed20f442879558c5c24a79948
+  - enabled: 1
+    path: Assets/scenes/Mapa.unity
+    guid: dcb4e54b4d2c74172ae72e36997e7451
+  - enabled: 1
     path: Assets/scenes/Test_Map.unity
     guid: 7b533dfe561bc47c8975c955fe4ef3d3
   - enabled: 1

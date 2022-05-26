@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class TimerGameOver : MonoBehaviour
 {
-    int countDownStartValue = 120;
+    int countDownStartValue = 300;
     public Text timerUI;
 
     public static bool gameOver;

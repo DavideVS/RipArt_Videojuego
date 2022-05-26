@@ -35,4 +35,34 @@ public class ButtonEventClick : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void Sipnosis()
+    {
+         SceneManager.LoadScene("Sipnosis");
+    }
+
+     public void Tutorial()
+    {
+         SceneManager.LoadScene("Tutorial");
+    }
+
+    public void Tutorial1()
+    {
+         SceneManager.LoadScene("Tutorial1");
+    }
+
+    public void Tutorial2()
+    {
+         SceneManager.LoadScene("Tutorial2");
+    }
+
+    public void Tutorial3()
+    {
+         SceneManager.LoadScene("Tutorial3");
+    }
+
+    public void Mapa()
+    {
+         SceneManager.LoadScene("Mapa");
+    }
 }
